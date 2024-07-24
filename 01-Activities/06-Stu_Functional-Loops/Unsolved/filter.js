@@ -23,10 +23,12 @@ const isPrime = num => {
 };
 
 
-// TODO: Describe how filter is working in this example. What will the value of primeArray be? 
+// TODO: Describe how filter is working in this example. What will the value of primeArray be?
+// filter() will return a new array containing only the prime numbers from originalArray.
 const primeArray = originalArray.filter(isPrime);
 
-
-// TODO: Describe how filter is working in this example. What will the value of moreThan5Array be? 
+// TODO: Describe how filter is working in this example. What will the value of moreThan5Array be?
+// filter() will return a new array containing only the numbers greater than 5 from originalArray.
 const moreThan5Array = originalArray.filter(num => num > 5);
 
+// In both cases, the filter() method returns a new array without modifying the original array.
